@@ -1,0 +1,27 @@
+header{
+    background-color: bisque;
+    font-family: "Zilla Slab Light";
+    width: 100%;
+}
+
+header img{
+    border: aquamarine 10px solid;
+    border-radius: 15%;
+    width: 25vw;
+    margin: 0 25px;
+}
+
+header ul{
+    border-radius: 25%;
+    display: inline-block;
+    margin: 30px 10px 0 0 ;
+    position: absolute;
+    right: 0;
+}
+
+header ul li{
+    border-radius: 20%;
+    display: inline-block;
+    margin: 8vw 2vw 0 0;
+    font-size: 2vw;
+}
