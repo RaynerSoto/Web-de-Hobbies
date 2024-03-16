@@ -2,6 +2,7 @@ header{
     background-color: bisque;
     font-family: "Zilla Slab Light";
     width: 100%;
+    padding-bottom: 15px;
 }
 
 header img{
@@ -9,6 +10,7 @@ header img{
     border-radius: 15%;
     width: 25vw;
     margin: 0 25px;
+    box-shadow: 10px 10px 30px black;
 }
 
 header ul{
@@ -17,11 +19,25 @@ header ul{
     margin: 30px 10px 0 0 ;
     position: absolute;
     right: 0;
+    color: black;
 }
 
 header ul li{
     border-radius: 20%;
     display: inline-block;
     margin: 8vw 2vw 0 0;
-    font-size: 2vw;
+    font-size: 3vw;
+    text-decoration: none;
 }
+
+header ul li a{
+    text-decoration: none;
+}
+
+header ul li a:hover{
+    text-decoration: underline red;
+    color: black;
+    font-size: 3.4vw;
+    transition: 1s all;
+}
+
