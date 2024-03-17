@@ -41,3 +41,11 @@ header ul li a:hover{
     transition: 1s all;
 }
 
+header img:hover{
+    border-radius: 75%;
+    border: lineal-gradient(#bd2727, #252572);
+    opacity: 80%;
+    width: 26.5vw;
+    transform: rotate(360deg);
+    transition: 2s all;
+}
